@@ -40,7 +40,7 @@ const FilePicker = ({ file, setFile, readFile }) => {
 }
 
 FilePicker.propTypes = {
-  file: PropTypes.string,
+  file: PropTypes.object,
   setFile: PropTypes.func,
   readFile: PropTypes.func,
 }
